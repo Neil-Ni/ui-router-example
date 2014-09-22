@@ -1,0 +1,11 @@
+<div class="pa-sidebar well well-small">
+  <ul class="nav nav-list">
+    <li class="nav-header">Top authors</li>
+    <li ng-repeat="author in authors | limitTo:2" ui-sref-active="active">
+      <a ui-sref="authors.detail.index({authorId:author.id})">{{author.name}}</a>
+    </li>
+  </ul>
+  <hr>
+  <button class="btn" ng-click="goToRandom()">Show random author</button>
+  <div ui-view="menuTip" class="slide"></div>
+</div>

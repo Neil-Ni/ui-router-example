@@ -1,0 +1,17 @@
+<div>
+  <a ui-sref="authors.index"> < Back </a>
+  <h2>{{author.name}}</h2>
+  <ul>
+    <li ng-repeat="item in author.items">
+      <a ui-sref="authors.detail.item({itemId:item.id})">{{item.type}}</a>
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <a ui-sref="authors.detail.books.index({authorId: author.id})">books</a>
+    </li>
+  </ul>
+  <div ui-view class="slide">
+    <small class="muted">Click on a author item to view and/or edit it.</small>
+  </div>
+</div>

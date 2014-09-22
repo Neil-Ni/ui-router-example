@@ -1,0 +1,9 @@
+<div>
+  <a ui-sref="authors.detail.index({authorId: author.id})"> < Back </a>
+  <h3>book list</h3>
+  <ul>
+    <li ng-repeat="book in author.books">
+      <a ui-sref="authors.detail.books.detail.index({authorId: author.id, bookId:book.id})">{{book.name}}</a>
+    </li>
+  </ul>
+</div>

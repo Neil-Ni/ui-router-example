@@ -1,0 +1,101 @@
+{
+  "authors":[
+    {
+      "id": 1,
+      "name": "Alice",
+      "items": [
+        {
+          "id": "a",
+          "type": "phone number",
+          "value": "555-1234-1234"
+        },
+        {
+          "id": "b",
+          "type": "email",
+          "value": "alice@mailinator.com"
+        }
+      ],
+      "books": [
+        {
+          "id": "1",
+          "name": "Alice-Book-1"
+        },
+        {
+          "id": "2",
+          "name": "Alice-Book-2"
+        },
+        {
+          "id": "3",
+          "name": "Alice-Book-3"
+        },
+        {
+          "id": "4",
+          "name": "Alice-Book-4"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Bob",
+      "items": [
+        {
+          "id": "a",
+          "type": "blog",
+          "value": "http://bob.blogger.com"
+        },
+        {
+          "id": "b",
+          "type": "fax",
+          "value": "555-999-9999"
+        }
+      ],
+      "books": [
+        {
+          "id": "1",
+          "name": "Bob-Book-1"
+        },
+        {
+          "id": "2",
+          "name": "Bob-Book-2"
+        },
+        {
+          "id": "3",
+          "name": "Bob-Book-3"
+        },
+        {
+          "id": "4",
+          "name": "Bob-Book-4"
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "name": "Eve",
+      "items": [
+        {
+          "id": "a",
+          "type": "full name",
+          "value": "Eve Adamsdottir"
+        }
+      ],
+      "books": [
+        {
+          "id": "1",
+          "name": "Eve-Book-1"
+        },
+        {
+          "id": "2",
+          "name": "Eve-Book-2"
+        },
+        {
+          "id": "3",
+          "name": "Eve-Book-3"
+        },
+        {
+          "id": "4",
+          "name": "Eve-Book-4"
+        }
+      ]
+    }
+  ]
+}
